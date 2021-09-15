@@ -21,6 +21,6 @@ export function ImageGallery({ images, onSelectImage }) {
 }
 
 ImageGallery.propTypes = {
-  images: PropTypes.object.isRequired,
+  images: PropTypes.array.isRequired,
   onSelectImage: PropTypes.func.isRequired,
 };
